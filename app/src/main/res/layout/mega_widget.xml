@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="@dimen/widget_margin"
+android:background="@drawable/app_widget_background"
+android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/data"
+        style="@style/widget_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:text="none" />
+
+    <TextView
+        android:id="@+id/launch_url"
+        style="@style/widget_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:text="@string/URL" />
+
+    <TextView
+        android:id="@+id/id_label"
+        style="@style/widget_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:text="@string/widget_id" />
+
+</LinearLayout>
